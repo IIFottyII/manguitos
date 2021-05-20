@@ -1,0 +1,16 @@
+{
+  "name": "Mangos Project",
+  "short_name": "mangitos",
+  "description": "Aplicación para ver la humedad de los mangos",
+  "icons": [
+    {
+      "src": "/images/Mango.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "fullscreen",
+  "theme_color": "#764ABC",
+  "background_color": "#764ABC"
+}

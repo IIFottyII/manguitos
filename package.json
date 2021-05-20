@@ -1,0 +1,18 @@
+{
+  "name": "mangoproject",
+  "version": "0.1.0",
+  "description": "Proyecto para sistemas web",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roberto Reyes",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "mqtt": "^4.2.6"
+  }
+}
