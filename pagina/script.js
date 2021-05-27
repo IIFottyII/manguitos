@@ -1,6 +1,6 @@
 
 Push.Permission.get();
-
+//objeto para nuestro pdf
 var doc = new jsPDF();
 
 var humedad = document.querySelector('.hum-container > span.hum');
@@ -40,6 +40,7 @@ function onMessageArrived(message) {
         if(json.humedad >= 90) {
           sendNotification();
         }
+        //set de la cantidad de humedad en el html
         humedad.textContent = json.humedad.toString();
     }
     catch(error) {
@@ -54,10 +55,6 @@ function sendNotification() {
       icon: '/images/Mango.png',
       timeout: 8000,               // Timeout before notification closes automatically.
       vibrate: [100, 100, 100],    // An array of vibration pulses for mobile devices.
-      onClick: function() {
-          // Callback for when the notification is clicked. 
-          console.log(this);
-      }  
   });
 }
 
